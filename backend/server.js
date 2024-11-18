@@ -15,9 +15,11 @@ connectDB()
 connectCloudinary()
 
 
+
 //MIDDLEWARES
 app.use(express.json())
 app.use(cors())
+
 
 //API ENDPOINT
 app.use('/api/admin', adminRouter)
